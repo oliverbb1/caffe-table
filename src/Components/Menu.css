@@ -1,0 +1,38 @@
+.menu {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 22vh;
+    min-height: 160px;
+    width: 100vw;
+    /* background-image: url("../assets/patternpad.svg"); */
+  }
+  
+  .pasta-pizza-drink-menu {
+    color: black;
+    background-color: #fbf7f7;
+    padding: 7px;
+    margin: 0;
+    border-bottom: 3.5px solid #980c0c;
+    border-top: 3.5px solid #0d7c1a;
+  }
+  
+  .products {
+    background-color: white;
+    min-width: fit-content;
+    width: 10rem;
+    min-height: 180px;
+    height: 170px;
+    -webkit-box-shadow: 5px 5px 16px -4px rgba(0, 0, 0, 0.52);
+    box-shadow: 5px 5px 16px -4px rgba(0, 0, 0, 0.52);
+  }
+  
+  .menu-item {
+    margin: 3px !important;
+    list-style-type: none;
+    cursor: pointer;
+    color: black;
+    margin: 1px;
+    border-bottom: 1px solid #c3bebe;
+  }
+  
