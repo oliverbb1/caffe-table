@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    color: white;
+    height: 8vh;
+    background-color: #980c0c;
+  }
+  
+  .icon {
+    width: 40px;
+    fill: white;
+  }
+  
+  .add-table-icon {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    cursor: pointer;
+  }
+  
+  .add-table-icon:hover {
+    background-color: #fbf7f73a;
+  }
+  
+  .dropdown-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .tabels-dropdown {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 27px;
+    background-color: white;
+    /* -webkit-box-shadow: 5px 5px 16px -4px rgba(0, 0, 0, 0.52); */
+    box-shadow: 5px 5px 16px -4px rgba(0, 0, 0, 0.52);
+  }
+  
+  .tabels-drop-header {
+    color: black;
+  }
+  
+  .tabels-drop-done {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    cursor: pointer;
+    color: black;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .tabels-drop-done:hover {
+    cursor: pointer;
+    color: white;
+    font-weight: lighter;
+    background-color: #980c0c;
+    transition: all 0.3s ease 0s;
+  }
+  
