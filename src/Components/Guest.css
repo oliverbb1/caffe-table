@@ -1,0 +1,79 @@
+.guest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ordered-products {
+    display: flex;
+    flex: 1;
+    overflow-y: hidden;
+    align-items: center;
+  }
+  
+  .ordered-products::-webkit-scrollbar {
+    height: 6px;
+    background-color: #c3bebe;
+  }
+  
+  .ordered-products::-webkit-scrollbar-thumb {
+    background-color: #980c0c;
+  }
+  
+  .order {
+    margin-left: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+    border-top: 1px solid #980c0c;
+    border-right: 1px solid #980c0c;
+    border-bottom: 1px solid #0d7c1a;
+    border-left: 1px solid #0d7c1a;
+  }
+  
+  .make-order {
+    font-size: x-small;
+    margin-left: auto;
+    text-decoration: none;
+    padding: 3px;
+    color: #ffffff;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    background: #980c0c;
+    border-color: #980c0c;
+  }
+  
+  .make-order:hover {
+    color: #ffffff;
+    background: #0d7c1a;
+    border-color: #0d7c1a;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .make-order-active {
+    font-size: x-small;
+    margin-left: auto;
+    text-decoration: none;
+    padding: 3px;
+    color: #0d7c1a;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    background: white;
+    border-color: #0d7c1a;
+  }
+  
+  .make-order-disabled {
+    font-size: x-small;
+    margin-left: auto;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #cccccc;
+    padding: 3px;
+    border: 1px solid #cccccc;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  

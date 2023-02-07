@@ -29,14 +29,16 @@ const drinks = [
 ];
 
 const addProduct = (product) => {
-    console.log("dodato")
+    // console.log("dodato")
+    guest.guestNum && 
+        setOrders((preState) => preState.concat({...guest, product}));
 }
 return (
     <div className='menu'>
         <div className="products">
             <h4 className='pasta-pizza-drink-menu'>Pasta:</h4>
-            {pastas.map((pasta) => (
-                <li className='menu-item' onClick={() => addProduct(pasta)}>
+            {pastas.map((pasta, id) => (
+                <li key={id + 1} className='menu-item' onClick={() => addProduct(pasta)}>
                     {Object.keys(pasta)} {" "}
                     {Object.values(pasta)}
                 </li>
@@ -44,8 +46,9 @@ return (
         </div>
         <div className="products">
             <h4 className='pasta-pizza-drink-menu'>Pizza:</h4>
-            {pizzas.map((pizza) => (
+            {pizzas.map((pizza, id) => (
                 <li 
+                    key={id + 1}
                     className='menu-item' 
                     onClick={() => addProduct(pizza)}>
                     {Object.keys(pizza)} {""}
@@ -55,11 +58,13 @@ return (
         </div>
         <div className="products">
             <h4 className='pasta-pizza-drink-menu'>Drinks:</h4>
-            {drinks.map((drink) => (
-                <li className='menu-item'
+            {drinks.map((drink, id) => (
+                <li 
+                    key={id + 1}
+                    className='menu-item'
                     onClick={() => addProduct(drink)}>
-                    {Object.keys(drink)}
-                    {Object.keys(drink)}
+                    {Object.keys(drink)} {""}
+                    {Object.values(drink)}
                 </li>
             ))}
         </div>

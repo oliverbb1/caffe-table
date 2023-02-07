@@ -1,0 +1,15 @@
+.total-profit {
+    display: flex;
+    
+    justify-content: center;
+  }
+  
+  .profit {
+    color: #980c0c;
+    margin-right: 10px;
+  }
+  
+  .profit-amount {
+    color: #0d7c1a;
+  }
+  

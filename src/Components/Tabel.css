@@ -1,0 +1,108 @@
+.tabel-container {
+    border-bottom: 1px solid #0d7c1a;
+    margin: 5px;
+    padding-bottom: 10px;
+  }
+  
+  .tabel-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #0d7c1a;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .add-guest-dropdown-icon {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 40px;
+  }
+  
+  .add-guest-dropdown-icon:hover {
+    background-color: #fbf7f73a;
+  }
+  
+  .guest-dropdown {
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    border-radius: 5px;
+    margin-top: -17px;
+    margin-left: 115px;
+    background-color: white;
+    -webkit-box-shadow: 5px 5px 16px -4px rgba(0, 0, 0, 0.52);
+    box-shadow: 5px 5px 16px -4px rgba(0, 0, 0, 0.52);
+  }
+  
+  .guest-drop-done {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .guest-drop-done:hover {
+    background-color: #980c0c;
+    color: white;
+    font-weight: lighter;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .tabel {
+    width: 300px;
+    height: 322px;
+    background-color: #fbf7f7;
+  }
+  
+  .guests-container {
+    overflow-y: scroll;
+    height: 250px;
+  }
+  
+  .guests-container::-webkit-scrollbar {
+    width: 6px;
+    background-color: #c3bebe;
+  }
+  
+  .guests-container::-webkit-scrollbar-thumb {
+    background-color: #0d7c1a;
+  }
+  
+  .tabel-buttons {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .disabled-button {
+    color: #ffffff;
+    background-color: #cccccc;
+    border: 2px solid #cccccc;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
+  .tabel-bill {
+    display: flex;
+  }
+  
+  .tabel-price {
+    margin-left: 5px;
+    color: black;
+  }
+  
+  .tabel-price-to-pay {
+    font-weight: lighter;
+    margin-left: 5px;
+    color: white;
+    background-color: #980c0c;
+  }
+  
